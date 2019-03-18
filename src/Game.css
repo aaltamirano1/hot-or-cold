@@ -1,0 +1,34 @@
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#userGuess{
+  width: 200px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+#guessButton{
+  margin-top: 10px;
+  width: 202px;
+  padding: 10px;
+}
+
+section.game{
+  max-width: 400px;
+  margin: auto;
+}
+
+ul#guessList{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul#guessList li{
+  padding: 3px 6px;
+  border-radius: 3px;
+  background-color: turquoise;
+  margin: 3px;
+}
