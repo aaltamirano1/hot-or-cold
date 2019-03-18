@@ -19,9 +19,6 @@ export default class App extends React.Component {
   handleInput(input){
     const guesses = this.state.guesses;
     if(input.value != ''){
-      if(input.value == this.state.number){
-        this.setState({feedback: 'You Won. Click new game to play again'});
-      }
       if(this.state.guesses.indexOf(input.value)<0){
         this.setState({
           guessCount: this.state.guessCount+1,
