@@ -4,7 +4,7 @@ import './Modal.css';
 class Modal extends Component{
 	render(){
 		return (
-			<div className="overlay" id="modal">
+			<div id="modal">
         <div className="content">
           <h3>What do I do?</h3>
             <p>This is a Hot or Cold Number Guessing Game. The game goes like this: </p>
